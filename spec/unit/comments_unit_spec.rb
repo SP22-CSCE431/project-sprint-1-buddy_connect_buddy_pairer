@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Comment, type: :model do
     subject do
-        described_class.new(commentId: 2468, postId: 123456789, posterId: 12345, commentDate: '2022-02-02', comment: 'What it do')
+        described_class.new(commentId: 2468, postId: 123456789, posterId: 12345, commentDate: '2022-02-02', message: 'What it do')
     end
 
     it 'is valid with valid attributes' do

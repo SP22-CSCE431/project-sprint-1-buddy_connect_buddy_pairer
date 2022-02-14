@@ -10,7 +10,7 @@ RSpec.describe 'Creating a comment', type: :feature do
     select '2021', :from => 'comment_commentDate_1i'
     select 'December', :from => 'comment_commentDate_2i'
     select '25', :from => 'comment_commentDate_3i'
-    fill_in 'comment', with: "Ayo its me a comment"
+    fill_in 'message', with: "Ayo its me a comment"
 
 
     click_on 'Create Comment'
